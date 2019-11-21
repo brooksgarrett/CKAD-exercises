@@ -87,7 +87,7 @@ kubectl logs busybox
 </p>
 </details>
 
-### Create a busybox pod (using YAML) that runs the command "env". Run it and see the output
+### DONE Create a busybox pod (using YAML) that runs the command "env". Run it and see the output
 
 <details><summary>show</summary>
 <p>
@@ -128,7 +128,7 @@ kubectl logs busybox
 </p>
 </details>
 
-### Get the YAML for a new namespace called 'myns' without creating it
+### DONE Get the YAML for a new namespace called 'myns' without creating it
 
 <details><summary>show</summary>
 <p>
@@ -140,7 +140,7 @@ kubectl create namespace myns -o yaml --dry-run
 </p>
 </details>
 
-### Get the YAML for a new ResourceQuota called 'myrq' with hard limits of 1 CPU, 1G memory and 2 pods without creating it
+### MORE Get the YAML for a new ResourceQuota called 'myrq' with hard limits of 1 CPU, 1G memory and 2 pods without creating it
 
 <details><summary>show</summary>
 <p>
@@ -152,7 +152,7 @@ kubectl create quota myrq --hard=cpu=1,memory=1G,pods=2 --dry-run -o yaml
 </p>
 </details>
 
-### Get pods on all namespaces
+### DONE Get pods on all namespaces
 
 <details><summary>show</summary>
 <p>
@@ -164,7 +164,7 @@ kubectl get po --all-namespaces
 </p>
 </details>
 
-### Create a pod with image nginx called nginx and allow traffic on port 80
+### DONE Create a pod with image nginx called nginx and allow traffic on port 80
 
 <details><summary>show</summary>
 <p>
